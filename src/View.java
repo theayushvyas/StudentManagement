@@ -25,8 +25,8 @@ public class View extends javax.swing.JFrame {
      try{
                  Class.forName("com.mysql.jdbc.Driver");
                  String url = "jdbc:mysql://localhost:3306/ayush";
-                 String un  = "avyas";		
-                 String pwd = "avyas";
+                 String un  = "YOUR MYSQL USERNAME HERE";		
+                 String pwd = "YOUR MYSQL PASSWORD HERE";
                  Connection con = DriverManager.getConnection(url,un,pwd);
                  String q ="select * from students ";
                  PreparedStatement st = con.prepareStatement(q);
