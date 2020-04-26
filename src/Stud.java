@@ -142,8 +142,8 @@ public class Stud extends javax.swing.JFrame {
        
          try
          {
-             Class.forName("com.mysql.jdbc.Driver");
-             String url = "jdbc:mysql://localhost:3306/ayush";
+             Class.forName("com.mysql.jdbc.Driver");    
+             String url = "jdbc:mysql://localhost:3306/YOUR DATABASE NAME";
              String un = "YOUR MYSQL USERNAME HERE";
              String pwd = "YOUR MYSQL PASSWORD HERE";
              Connection con =DriverManager.getConnection(url,un,pwd);
