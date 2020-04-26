@@ -144,8 +144,8 @@ public class Stud extends javax.swing.JFrame {
          {
              Class.forName("com.mysql.jdbc.Driver");
              String url = "jdbc:mysql://localhost:3306/ayush";
-             String un = "avyas";
-             String pwd = "avyas";
+             String un = "YOUR MYSQL USERNAME HERE";
+             String pwd = "YOUR MYSQL PASSWORD HERE";
              Connection con =DriverManager.getConnection(url,un,pwd);
              String q = "Insert into students (ROLL_no,Name,Fathers_Name,Course) values (?,?,?,?)";
              PreparedStatement st = con.prepareStatement(q);
