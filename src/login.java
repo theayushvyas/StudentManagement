@@ -119,8 +119,8 @@ public class login extends javax.swing.JFrame {
         {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost:3306/ayush";
-            String usn = "avyas";
-            String pwd = "avyas";
+            String usn = "YOUR MYSQL USERNAME HERE";
+            String pwd = "YOUR MYSQL PASSWORD HERE";
             Connection con = DriverManager.getConnection(url,usn,pwd);
             String q = "insert into login (User_name , Password) values(?,?)";
             PreparedStatement st = con.prepareStatement(q);
@@ -145,8 +145,8 @@ public class login extends javax.swing.JFrame {
                 try{
                     Class.forName("com.mysql.jdbc.Driver");
                     String url = "jdbc:mysql://localhost:3306/ayush";
-                    String usn = "avyas";
-                    String pwd = "avyas";
+                    String usn = "YOUR MYSQL USERNAME HERE";
+                    String pwd = "YOUR MYSQL PASSWORD HERE";
                     Connection con = DriverManager.getConnection(url,usn,pwd);
                     String q = "select * from login where User_name = ? and Password = ?";
                     PreparedStatement st = con.prepareStatement(q);
