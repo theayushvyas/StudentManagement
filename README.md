@@ -2,7 +2,7 @@
 This  application is developed in Netbeans using Java Swing and Jframe.
 It ask for your login credentials user name and password first after successful authentication it will take you to the window to perform operations like view records ,insert record and delete record .
 
-......TO RUN THIS STUDENT MANAGEMENT PROGRAM YOU NEED THE FOLLOWING......
+......TO RUN THIS STUDENT MANAGEMENT APPLICATION YOU NEED THE FOLLOWING......
 
 1)NETBEANS .
 
@@ -12,3 +12,4 @@ It ask for your login credentials user name and password first after successful 
 
 4)IMPORT RS2XML.JAR LIBRARY FOR JTABLE.
 
+5)AND A LAPTOP/PC.
